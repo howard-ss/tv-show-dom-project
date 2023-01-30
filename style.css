@@ -1,3 +1,64 @@
+ /* #root { 
+  color: red;}  */
+
+  /*style.css*/
+
 #root {
-  color: red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* .episode-header {
+  background-color: skyblue;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.episode-card {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  background-color: cream;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+} */
+
+
+
+.episode-card {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+  background-color: cream;
+}
+
+.title-wrapper {
+  background-color: lightskyblue;
+  /* padding: 10px; */
+  box-shadow: 2px 2px 4px gray;
+}
+
+.episode-title,
+.episode-code {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.episode-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.episode-summary {
+  color: gray;
+  margin-top: 10px;
+  text-align: justify;
 }
