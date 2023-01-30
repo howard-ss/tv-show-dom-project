@@ -51,7 +51,7 @@ function getAllEpisodes() {
           "http://static.tvmaze.com/uploads/images/original_untouched/1/2668.jpg",
       },
       summary:
-        "Lord Eddard Stark, ruler of the North, is summoned to court by his old friend, King Robert Baratheon, to serve as the King's Hand. Eddard reluctantly agrees after learning of a possible threat to the King's life. Eddard's bastard son Jon Snow must make a painful decision about his own future, while in the distant east Viserys Targaryen plots to reclaim his father's throne, usurped by Robert, by selling his sister in marriage.",
+        "<p>Lord Eddard Stark, ruler of the North, is summoned to court by his old friend, King Robert Baratheon, to serve as the King's Hand. Eddard reluctantly agrees after learning of a possible threat to the King's life. Eddard's bastard son Jon Snow must make a painful decision about his own future, while in the distant east Viserys Targaryen plots to reclaim his father's throne, usurped by Robert, by selling his sister in marriage.</p>",
       _links: {
         self: {
           href: "http://api.tvmaze.com/episodes/4952",
@@ -76,7 +76,7 @@ function getAllEpisodes() {
           "http://static.tvmaze.com/uploads/images/original_untouched/1/2669.jpg",
       },
       summary:
-        "An incident on the Kingsroad threatens Eddard and Robert's friendship. Jon and Tyrion travel to the Wall, where they discover that the reality of the Night's Watch may not match the heroic image of it.",
+        "<p>An incident on the Kingsroad threatens Eddard and Robert's friendship. Jon and Tyrion travel to the Wall, where they discover that the reality of the Night's Watch may not match the heroic image of it.</p>",
       _links: {
         self: {
           href: "http://api.tvmaze.com/episodes/4953",
@@ -100,7 +100,7 @@ function getAllEpisodes() {
           "http://static.tvmaze.com/uploads/images/original_untouched/1/2671.jpg",
       },
       summary:
-        "Jon Snow attempts to find his place amongst the Night's Watch. Eddard and his daughters arrive at King's Landing.",
+        "<p>Jon Snow attempts to find his place amongst the Night's Watch. Eddard and his daughters arrive at King's Landing.</p>",
       _links: {
         self: {
           href: "http://api.tvmaze.com/episodes/4954",
@@ -125,7 +125,7 @@ function getAllEpisodes() {
           "http://static.tvmaze.com/uploads/images/original_untouched/1/2673.jpg",
       },
       summary:
-        "Tyrion stops at Winterfell on his way home and gets a frosty reception from Robb Stark. Eddard's investigation into the death of his predecessor gets underway.",
+        "<p>Tyrion stops at Winterfell on his way home and gets a frosty reception from Robb Stark. Eddard's investigation into the death of his predecessor gets underway.</p>",
       _links: {
         self: {
           href: "http://api.tvmaze.com/episodes/4955",
@@ -150,7 +150,7 @@ function getAllEpisodes() {
           "http://static.tvmaze.com/uploads/images/original_untouched/1/2674.jpg",
       },
       summary:
-        "Catelyn's actions on the road have repercussions for Eddard. Tyrion enjoys the dubious hospitality of the Eyrie.",
+        "<p>Catelyn's actions on the road have repercussions for Eddard. Tyrion enjoys the dubious hospitality of the Eyrie.</p>",
       _links: {
         self: {
           href: "http://api.tvmaze.com/episodes/4956",
@@ -175,7 +175,7 @@ function getAllEpisodes() {
           "http://static.tvmaze.com/uploads/images/original_untouched/1/2676.jpg",
       },
       summary:
-        "Viserys is increasingly frustrated by the lack of progress towards gaining his crown.",
+        "<p>Viserys is increasingly frustrated by the lack of progress towards gaining his crown.</p>",
       _links: {
         self: {
           href: "http://api.tvmaze.com/episodes/4957",

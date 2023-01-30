@@ -28,8 +28,8 @@ function makePageForEpisodes(episodeList) {
     const episodeImg = document.createElement("img");
     episodeImg.src = episode.image.medium;
 
-    const episodeSummary = document.createElement("p");
-    episodeSummary.textContent = episode.summary;
+    const episodeSummary = document.createElement("div");
+    episodeSummary.innerHTML = episode.summary;
 
     episodeElem.append(titleWrapper, episodeImg, episodeSummary);
     rootElem.appendChild(episodeElem);
