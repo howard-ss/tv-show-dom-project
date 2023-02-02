@@ -54,5 +54,44 @@ function makePageForEpisodes(episodeList) {
   });
 }
 
+// level 200 : 'live'search
+
+const episodesList = document.getElementById("episodes-list");
+const searchInput = document.getElementById("search-input");
+const displayCount = document.getElementById("display-count");
+
+let episodeData = [];
+
+fetch("http://www.tvmaze.com/shows/82/game-of-thrones")
+  .then((response) => response.json())
+  .then((data) => {
+    episodeData = data;
+    renderEpisodes(data);
+  });
+
+function renderEpisodes(episodes) {
+  episodesList.innerHTML = "";
+  for (let episode of episodes) {
+    const episodeEl = document.createElement("li");
+    episodeEl.innerHTML = `
+      <h3>${episode.name}</h3>
+      <p>${episode.summary}</p>
+    `;
+    episodesList.appendChild(episodeEl);
+  }
+}
+
+searchInput.addEventListener("input", (e) => {
+  const searchTerm = e.target.value.toLowerCase();
+  const filteredEpisodes = episodeData.filter((episode) => {
+    return (
+      episode.name.toLowerCase().includes(searchTerm) ||
+      episode.summary.toLowerCase().includes(searchTerm)
+    );
+  });
+  renderEpisodes(filteredEpisodes);
+  displayCount.innerHTML = `Displaying ${filteredEpisodes.length}/${episodeData.length} episodes`;
+});
+
 // Call the setup function when the page is loaded
 window.onload = setup;

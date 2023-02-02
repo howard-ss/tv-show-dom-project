@@ -9,6 +9,57 @@
   justify-content: space-between;
 }
 
+/* style for level 200 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.header-left {
+  display: flex;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* below style is from level 100  */
+
 /* .episode-header {
   background-color: skyblue;
   padding: 10px;

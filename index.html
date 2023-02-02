@@ -9,9 +9,20 @@
   </head>
 
   <body>
-    <div id="root">
-    </div>
+    <header class="header">
+      <div class="header-left">
+         <form id="search-form">
+           <input type="text" id="search-input" placeholder="Search by Episode Name or Summary">
+           <button type="submit">search</button>
+         </form>
+      </div>
+      <div class="header-right">
+        <p id="episodes-match">Displaying 0/73 episodes</p>
+      </div>
+    </header>
 
+
+    <div id="root"></div>
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
 
